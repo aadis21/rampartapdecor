@@ -23,7 +23,9 @@ nav {
   border-bottom: 1px solid rgba(201,168,76,0.25);
   flex-wrap: wrap; gap: 0.5rem;
 }
-.nav-logo { font-family: 'Cinzel', serif; font-size: 1.1rem; color: var(--gold); letter-spacing: 0.12em; text-decoration: none; }
+.nav-logo { display: flex; align-items: center; gap: 0.9rem; font-family: 'Cinzel', serif; font-size: 1.1rem; color: var(--gold); letter-spacing: 0.12em; text-decoration: none; }
+.logo-image { width: 48px; height: auto; display: block; border-radius: 0.25rem; }
+.logo-text { display: flex; flex-direction: column; line-height: 1.1; }
 .nav-logo span { display: block; font-size: 0.55rem; letter-spacing: 0.3em; color: var(--gold-light); margin-top: 2px; }
 .nav-links { display: flex; gap: 2rem; list-style: none; }
 .nav-links a { font-family: 'Raleway', sans-serif; font-size: 0.72rem; letter-spacing: 0.18em; text-transform: uppercase; color: rgba(232,208,144,0.75); text-decoration: none; transition: color 0.3s; }
